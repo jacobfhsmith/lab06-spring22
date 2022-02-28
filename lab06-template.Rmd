@@ -1,0 +1,67 @@
+---
+title: "Lab 06"
+author: ''
+subtitle: 'due March 4 11:59 PM '
+output: 
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(warning = FALSE)
+```
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(tidymodels)
+``` 
+
+```{r load-data, message = FALSE}
+lemurs = read_csv("lemur_subset.csv")
+```
+
+## PLEASE REMEMBER TO DO THE MERGE CONFLICTS ACTIVITY
+
+# Exercise 1
+
+```{r ex-1}
+# code here
+```
+
+# Exercise 2
+
+```{r ex-2}
+# code here
+```
+
+```{r null-diff-life}
+set.seed(2)
+# null_diff_life = lemurs2 %>%
+#   specify(response = ___, explanatory = ___) %>%
+#   hypothesize(null = "___") %>%
+#   generate(reps = 100, type = "___") %>%
+#   calculate(stat = "___", order = c("EMON", "ERUB"))
+```
+
+# Exercise 3
+
+```{r ex-3}
+# code here for observed stat
+```
+
+
+# Exercise 4
+
+```{r ex-4}
+set.seed(4)
+# code here for simulation (use seed)
+```
+
+
+# Exercise 5
+
+```{r ex-5}
+set.seed(5)
+# code here for simulation
+```
